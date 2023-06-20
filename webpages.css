@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.myprojects-home {
+    padding: 10px;
+    text-align: center;
+}
+
+.myprojectshome-img {
+    height: 30vh;
+}
+
+.myprojects-heading {
+    font-family: Bree serif;
+    font-size: 25px;
+    color: #183b56;
+
+}
+
+.myproject-para {
+    font-family: "bree serif";
+    font-size: 13px;
+    color: #616e7c;
+}
+
+.project-images-mini {
+    height: 90px;
+    width: 150px;
+    margin: 8px;
+}
+
+.bg-container {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card-box-container {
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 25px;
+}
+
+.box-card-mainheading {
+    font-family: "Bree serif";
+    font-size: 28px;
+    color: #5752ab;
+}
+
+.box-card-para {
+    font-family: Robotto;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.button-container-1 {
+    background-color: #ffffff;
+    color: #171f46;
+    border-radius: 8px;
+    height: 35px;
+    width: 110px;
+    border-style: solid;
+    font-size: 12px;
+    border-width: 1px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.button-container-2 {
+    background-color: #5752ab;
+    border-radius: 8px;
+    height: 35px;
+    width: 110px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    border-width: 0px;
+    margin-left: 5px;
+}
+
+.buttons-container {
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.bg-top-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.top-mainheading {
+    color: white;
+    font-family: "caveat";
+    width: 280px;
+    padding: 45px;
+    text-align: center;
+}
+
+.bottom-bg-container {
+    background-color: #e6f6ff;
+    padding: 25px;
+    text-align: center;
+}
+
+.card-container {
+    background-color: white;
+    width: 140px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 35px;
+}
+
+.card-image {
+    height: 80px;
+    width: 80px;
+}
+
+.card-heading {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #616e7c;
+    font-size: "normal";
+}
+
+.card-price {
+    color: #323f4b;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+
+.bg-container-happymeal {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.booking-card {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #f6c56e;
+    padding: 10px;
+}
+
+.main-heading {
+    font-family: Bree Serif;
+}
+
+.para-button-txt {
+    font-family: Roboto;
+}
+
+.button {
+    border-radius: 5px;
+    border-width: 0px;
+    height: 36px;
+    width: 115px;
+    font-size: 15px;
+
+}
+
+
+.bg-container-newspaper {
+    background-image: url("  https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.box-card-container {
+    background-color: #ffffff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 25px;
+
+}
+
+.container-text-mainpara {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 14px;
+
+
+
+}
+
+.container-text-mainheading {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-text-downpara {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.card-container-button {
+    color: #ffffff;
+    background-color: #323f4b;
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+
+.bg-container-home {
+    background-image: url("  https://images2.alphacoders.com/764/764685.jpg ");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: #F4fcfd;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 5px;
+}
+
+.button {
+    height: 36px;
+    width: 135px;
+    background-color: #04d4f0;
+    color: white;
+    border-radius: 15px;
+    border-width: 0px;
+}
+
+.bg-container-favplaces {
+    background-image: url("https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    height: 170vh;
+    background-size: cover;
+}
+
+.fav-place-mainheading {
+    color: white;
+    text-decoration: underline;
+    font-family: Bree Serif;
+    font-style: italic;
+    font-size: 35px;
+    padding: 25px;
+}
+
+.box-card-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.box-card-mainheading {
+    font-family: Roboto;
+    color: navy;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box-card-para {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.box-card-img {
+    height: 100px;
+    width: 80px;
+}
+
+.bg-container-detailedview {
+    background-image: url(" https://images.wallpaperscraft.com/image/island_sea_aerial_view_158571_3840x2160.jpg");
+    height: 130vh;
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.container-mainheading {
+    color: white;
+    font-family: "Bree serif";
+    font-size: 45px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.bottom-card {
+    background-color: white;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.bottom-card-mainheading {
+    font-family: "bree Serif";
+    font-size: 30px;
+    text-decoration: overline;
+
+
+}
+
+.bottom-para {
+
+    font-style: italic;
+}
+
+
+.bg-container-flag {
+    background-image: url(" https://wallpaperaccess.com/full/246001.jpg");
+    height: 400;
+    background-size: cover;
+}
+
+.bg-mainheading-fighters {
+    color: white;
+    font-family: fantasy;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-container-freedomfighter {
+    background-color: #EDEFEF;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.card-container-mainheading-freedomfighter {
+    color: navy;
+    font-family: Bree Serif;
+    text-decoration: overline;
+}
+
+.card-container-para-txt-freedomfighter {
+    font-style: italic;
+}
+
+.card-image-freedomfighter {
+    height: 130px;
+    width: 110px;
+}

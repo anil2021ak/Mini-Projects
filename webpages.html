@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="webpages.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sectionprojectshomepage">
+        <div class="myprojects-home">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="myprojectshome-img" />
+            </div>
+            <h1 class="myprojects-heading">My Projects</h1>
+            <p class="myproject-para">These are a few my static Website projects that i have developed using HTML,CSS and Bootstrap</p>
+        </div>
+
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="project-images-mini" onclick="display('sectionadvancedtechnologies')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="project-images-mini" onclick="display('sectiondiwali')" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="project-images-mini" onclick="display('sectionhappymeal')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png " class="project-images-mini" onclick="display('sectionnewspaper')" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src=" https://thumbs.dreamstime.com/b/travel-typographic-banner-inspirational-quote-sun-sea-waves-ocean-s-time-to-white-background-blue-colors-90389365.jpg" class="project-images-mini" onclick="display('sectiontourism')" />
+            <img src="https://th.bing.com/th/id/OIP.YmK7hR8iA3-Wqr-BEx4aFgHaEM?pid=ImgDet&rs=1" class="project-images-mini" onclick="display('sectionfreedomfighters-home')" />
+        </div>
+    </div>
+
+    <div id="sectionadvancedtechnologies">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card-box-container ">
+                <div>
+                    <h1 class="box-card-mainheading">Advanced Technologies</h1>
+                    <p class="box-card-para">Machinery and equipment developed from the application of scientific knowledge.</p>
+
+                    <button class="button-container-1">#Learn More#</button>
+
+                    <button class="button-container-2" onclick="display('sectionprojectshomepage')">Back</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiondiwali">
+        <div class="bg-top-container">
+            <h1 class="top-mainheading">Celebrate Diwali with your friends</h1>
+        </div>
+        <div class="bottom-bg-container">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="card-container">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="card-image" />
+                    <h1 class="card-heading">Diwali air Ballon</h1>
+                    <p class="card-price">RS:350/-</p>
+                </div>
+                <div class="card-container">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="card-image" />
+                    <h1 class="card-heading">Diwali air Ballon</h1>
+                    <p class="card-price">RS:350/-</p>
+                </div>
+            </div>
+            <div>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="card-container">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="card-image" />
+                        <h1 class="card-heading">Diwali air Ballon</h1>
+                        <p class="card-price">RS:350/-</p>
+                    </div>
+                    <div class="card-container">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="card-image" />
+                        <h1 class="card-heading">Diwali air Ballon</h1>
+                        <p class="card-price">RS:350/-</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionprojectshomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionhappymeal">
+        <div class="bg-container-happymeal  d-flex flex-column justify-content-end">
+            <div class="booking-card">
+
+                <h1 class="main-heading">Happy Meals</h1>
+                <p class="para-button-txt">Discover the best foods over the 1,000 Restaurents</p>
+                <button class="para-button-txt button">#Book Now#</button>
+                <button class="btn btn-success" onclick="display('sectionprojectshomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionnewspaper">
+        <div class="bg-container-newspaper d-flex flex-column justify-content-end">
+            <div class="box-card-container">
+                <p class="container-text-mainpara">NEWS OF THE DAY</p>
+                <h1 class="container-text-mainheading">All educational institutions in Assam to reopen from November 2</h1>
+                <p class="container-text-downpara">Uttar pradesh's Gautam Buddh Nagar recorded 107 new covid-19 cases on saturday,pushing the districts infection tally to 15,803, official data showed.The number of active cases came down furthur to 1,384 from 1,477 on Friday and 1,523 on thursday,according to the data released by the UP Health Department for a 24-hour period.</p>
+                <div>
+                    <button class="card-container-button">#Read more#</button>
+                    <button class="card-container-button" onclick="display('sectionprojectshomepage')">Back.</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="sectiontourism">
+        <div class="bg-container-home d-flex flex-column justify-content-end ">
+            <div class="tourism-card">
+                <h1>TOURISM</h1>
+                <p> plan your trip where ever you want to go. </p>
+                <button class="button" onclick="display('sectionfavplace')">Get start</button>
+                <button class="btn btn-success" onclick="display('sectionprojectshomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfavplace">
+        <div class="bg-container-favplaces">
+            <h1 class="fav-place-mainheading">Favourite Places:</h1>
+
+            <div class="box-card-container d-flex flex-row justify-content-end">
+                <div onclick="display('sectiontajmahal')">
+                    <h1 class="box-card-mainheading">Taj Mahal:</h1>
+                    <p class="box-card-para">The Taj Mahal is a mosque like building and tomb built in the 17th century by the Mughal emperor, Shah Jahan in memory of his wife, Mumtaz Mahal. The building is in the city of Agra, Uttar Pradesh. </p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80" class="box-card-img" />
+            </div>
+
+            <div class="box-card-container d-flex flex-row justify-content-end">
+                <div onclick="display('sectiongoldentemple')">
+                    <h1 class="box-card-mainheading">Golden Temple:</h1>
+                    <p class="box-card-para"> The Harmandir Sahib and the Darbar Sahib located in the city of Amritsar, Punjab (India) are informally known as the Golden Temple. Built in the 16 th Century by Guru Arjan Dev, the golden Temple opens from four gates which symbolises the openness of Sikhism towards all the people and all the religions.
+                        .</p>
+                </div>
+                <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Golden_Temple%2C_Amritsar_02.jpg/1200px-Golden_Temple%2C_Amritsar_02.jpg" class="box-card-img" />
+            </div>
+
+            <div class="box-card-container d-flex flex-row justify-content-end">
+                <div onclick="display('sectionmysorepalace')">
+                    <h1 class="box-card-mainheading">Mysore Palace:</h1>
+                    <p class="box-card-para"> Mysore Palace is a historical palace and a royal residence at Mysore in the Indian State of Karnataka. It is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore. The palace is in the centre of Mysore, and faces the Chamundi Hills eastward. </p>
+                </div>
+                <img src=" https://upload.wikimedia.org/wikipedia/commons/e/ef/MysorePalace1.JPG " class="box-card-img" />
+            </div>
+
+            <div class="box-card-container d-flex flex-row justify-content-end">
+                <div onclick="display('sectionvaranasi')">
+                    <h1 class="box-card-mainheading">Varanasi:</h1>
+                    <p class="box-card-para"> One of the important holy places to visit in Varanasi is the Kanaka Durga Mandir, which is adjacent to a kund. The temple has an interesting story related to it. Legend has it that the existing idol of the Goddess is not a man-made structure, but appeared by itself in the temple complex..</p>
+                </div>
+                <img src=" https://images.thrillophilia.com/image/upload/s--Forrkus4--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/173/005/original/1569910144_varanasi_temple4.jpg.jpg?1569910144 " class="box-card-img" />
+            </div>
+
+            <div class="box-card-container d-flex flex-row justify-content-end">
+                <div onclick="display('sectionsuntemple')">
+                    <h1 class="box-card-mainheading">Sun Temple:</h1>
+                    <p class="box-card-para"> Konark Sun temple is a striking model of ancient artistry, fluidity of ideas, and a pedagogic treasury. Dedicated to the sun god, Surya, the first rays of the sun fall on the entrance of the temple. Much of the temple has fallen into rack and ruin but what remains still holds enough charm to captivate..</p>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Konark_Sun_Temple_-_Front_Elevation.jpg/1280px-Konark_Sun_Temple_-_Front_Elevation.jpg  " class="box-card-img" />
+            </div>
+
+            <button class="btn btn-success" onclick="display('sectiontourism')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectiontajmahal">
+        <div class="bg-container-detailedview">
+            <h1 class="container-mainheading">Detailed View</h1>
+
+            <div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.fondosdepantalla.top/wp-content/uploads/2018/11/Taj-Mahal-hd-4k-wallpaper-Fondosdepantalla.top-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://images8.alphacoders.com/991/991715.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.fotosdelanaturaleza.es/wp-content/uploads/2020/04/Taj-Mahal-hd-4k-wallpaper-Fondosdepantalla.top-1-1024x683.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="bottom-card">
+                <h1 class="bottom-card-mainheading">Taj Mahal</h1>
+                <p class="bottom-para">The Taj Mahal is one of the seven wonders of the World and has been a monument of pride for all Indians. There are many stories and rumors that surround this monument, some of which are untrue and some can be proven. This wonder has a beautiful architecture that has been an inspiration for many artists.
+                    Taj Mahal, the symbolic representation of eternal love is located in Agra, India. This magnificent monument stands as a symbolic representation of love and care which the Mughal emperor Shah Jahan had for his wife Mumtaz Mahal.</p>
+                <p>Best Places to Visit Near Taj Mahal</p>
+                <ul class="unorderd-list">
+                    <li>Agra Fort</li>
+                    <li>Akbars Tomb</li>
+                    <li>Fatehpur sikri</li>
+                </ul>
+
+            </div>
+
+            <button class="btn btn-success" onclick="display('sectionfavplace')">Back</button>
+
+        </div>
+    </div>
+
+    <div id="sectiongoldentemple">
+        <div class="bg-container-detailedview">
+            <h1 class="container-mainheading">Detailed View</h1>
+
+            <div>
+                <div id="carouselgoldentemple" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselgoldentemple" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselgoldentemple" data-slide-to="1"></li>
+                        <li data-target="#carouselgoldentemple" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.tajhotels.com/content/dam/thrp/destinations/Amritsar/Destination-Highlights/Sightseeing-1x1/Golden-Temple-1x1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://img.veenaworld.com/wp-content/uploads/2018/08/Golden-Temple1.jpg?imwidth=1080" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.cheekypassports.com/wp-content/uploads/2018/11/The-Golden-Temple-in-Amritsar-Top-Places-to-Visit-in-Amritsar.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselgoldentemple" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselgoldentemple" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="bottom-card">
+                <h1 class="bottom-card-mainheading">Golden Temple</h1>
+                <p class="bottom-para"> History of Golden Temple. Golden Temple is also known as Sri Harmandir Sahab and Sri Darbar Sahab. Guru Arjun Dev, the fifth Sikh Guru, gave the idea of construction of a temple where Sikhs can come and worship. The land for the temple was bought from the Zamindars by Guru Ramdas. </p>
+                <p>Best Places to Visit Near Golden Temple, Amritsar</p>
+                <ul>
+                    <li>jallianWalaBagh</li>
+                    <li>wagah Border</li>
+                    <li>Akal Takht</li>
+                </ul>
+            </div>
+            <button class="btn btn-success" onclick="display('sectionfavplace')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionmysorepalace">
+        <div class="bg-container-detailedview">
+            <h1 class="container-mainheading">Detailed View</h1>
+
+            <div>
+                <div id="carouselmysorepalace" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselmysorepalace" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselmysorepalace" data-slide-to="1"></li>
+                        <li data-target="#carouselmysorepalace" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images7.alphacoders.com/593/593192.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://static.thousandwonders.net/Mysore.Palace.original.21648.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://wallpapercave.com/wp/wp1845414.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselmysorepalace" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselmysorepalace" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="bottom-card">
+                <h1 class="bottom-card-mainheading">Mysore Palace</h1>
+                <p class="bottom-para">Mysore Palace is a historical palace and a royal residence at Mysore in the Indian State of Karnataka. It is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore. The palace is in the centre of Mysore, and faces the Chamundi Hills eastward.</p>
+                <p>Best Places to visit near Mysore.</p>
+                <ul class="unorderd-list">
+                    <li>Bandipur National Park</li>
+                    <li>Nagarhole National Park</li>
+                    <li>srirangapatna.</li>
+                </ul>
+            </div>
+            <button class="btn btn-success" onclick="display('sectionfavplace')">Back</button>
+        </div>
+    </div>
+
+    <div id="sectionvaranasi">
+        <div class="bg-container-detailedview">
+            <h1 class="container-mainheading">Detailed View</h1>
+
+            <div>
+                <div id="carouselvaranasi" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselvaranasi" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselvaranasi" data-slide-to="1"></li>
+                        <li data-target="#carouselvaranasi" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src=" http://yesofcorsa.com/wp-content/uploads/2017/03/Varanasi-Desktop-Wallpaper-For-PC.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" http://yesofcorsa.com/wp-content/uploads/2017/03/Varanasi-High-Quality-Wallpaper.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://chikucab.com/taxi/wp-content/uploads/2020/01/Varanasi1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselvaranasi" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselvaranasi" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="bottom-card">
+                <h1 class="bottom-card-mainheading">Varanasi</h1>
+                <p class="bottom-para"> One of the important holy places to visit in Varanasi is the Kanaka Durga Mandir, which is adjacent to a kund. The temple has an interesting story related to it. Legend has it that the existing idol of the Goddess is not a man-made structure, but appeared by itself in the temple complex... </p>
+                <p>Best Places to Visit Near Varanasi.</p>
+                <ul>
+                    <li>Chandauli.</li>
+                    <li>Mirzapur</li>
+                    <li>Sonbhadra</li>
+                </ul>
+            </div>
+            <button class="btn btn-success" onclick="display('sectionfavplace')">Back</button>
+
+        </div>
+    </div>
+
+    <div id="sectionsuntemple">
+        <div class="bg-container-detailedview">
+            <h1 class="container-mainheading">Detailed View</h1>
+
+            <div>
+                <div id="carouselsuntemple" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselsuntemple" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselsuntemple" data-slide-to="1"></li>
+                        <li data-target="#carouselsuntemple" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src=" https://wallpapercave.com/wp/wp4534747.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src=" https://wallpapercave.com/wp/wp4534864.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sun_Temple_at_Konark.jpg/1280px-Sun_Temple_at_Konark.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselsuntemple" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselsuntemple" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="bottom-card">
+                <h1 class="bottom-card-mainheading">Sun Temple</h1>
+                <p class="bottom-para"> Konark Sun temple is a striking model of ancient artistry, fluidity of ideas, and a pedagogic treasury. Dedicated to the sun god, Surya, the first rays of the sun fall on the entrance of the temple. Much of the temple has fallen into rack and ruin but what remains still holds enough charm to captivate... </p>
+                <p>Best Places to Visit Near Sun Temple.</p>
+                <ul>
+                    <li>Konark Museum</li>
+                    <li>Konark Sea beach</li>
+                    <li>Ramachandi Temple & beach</li>
+                </ul>
+            </div>
+            <button class="btn btn-success" onclick="display('sectionfavplace')">Back</button>
+
+        </div>
+    </div>
+
+
+    <div id="sectionfreedomfighters-home">
+        <div class="bg-container-flag">
+            <h1 class="bg-mainheading-fighters">FREEDOM FIGHTERS</h1>
+
+
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectionsardarvallabaipatel')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">SARDAR VALLABAI PATEL </h2>
+                    <p class="card-container-para-txt-freedomfighter">Most brave and epic from the young age, Vallabhbhai Patel was born in 1875 and earned the title ‘Sardar’ after his heroic contribution in BardoliSatyagrah. Due to his brave endeavors, he eventually began to be regarded as ‘the iron man of India.’. Sardar Patel was originally a lawyer but he withdrew from law and joined freedom fight to represent India against British rulers. He became the Deputy PM of India after the independence and dedicated himself to integrate princely states into the Union India.</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/Sardar_patel_cropped-221x300.jpg" class="card-image-freedomfighter" />
+            </div>
+
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectionjawaharlalnehru')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">JAWAHARLAL NEHRU </h2>
+                    <p class="card-container-para-txt-freedomfighter">Jawaharlal Nehru was the only son of Motilal Nehru and Swarup Rani and was born in 1889. Nehru was originally a barrister and became popular as both freedom fighter of india and a politician. His passion for India’s freedom was the influence of Mahatma Gandhi’s efforts to relieve India from Britishers. He joined the freedom struggle, became the President of Indian National Congress and was eventually made the First Prime Minister of India post the independence. Since he adored children, he was called Chacha Nehru and his birthday is celebrated as Children’s day..</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/Jawaharlal-Nehru-236x300.jpg" class="card-image-freedomfighter" />
+            </div>
+
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectiongandhi')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">MAHATMA GANDHI </h2>
+                    <p class="card-container-para-txt-freedomfighter">Mohandas Karamchand Gandhi was born in 2nd October, 1869 and was entitled “Father of Nation” and Mahatma Gandhi because of his great deeds. Married to Kasturba at 13, he studied law in London and went to South Africa for practice where racial discrimination towards some Indians inspired him to fight for human rights. Later, after watching the status of India ruled by Englishmen, Gandhi fiercely joined the freedom fight. He took “DandiKuch” on his bare foot to relieve tax on salt and led several non-violence movements against Britishers in efforts for freedom..</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/mahatma-gandhi-medium-240x300.jpg" class="card-image-freedomfighter" />
+            </div>
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectionshastri')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">LAL BAHADUR SHASTRI</h2>
+                    <p class="card-container-para-txt-freedomfighter">Lal Bahadur Shastri was born in 1904 in UP. He received the title “Shastri” Scholar after he completed his study at Kashi Vidyapeeth. As a silent yet active freedom fighter, he participated in Quit India movement, Civil Disobedience movement and Salt Satyagrah movement led by Mahatma Gandhi. He also spent many years in Jail. After the independence, he graced the position of Home Minister and later became Prime Minister of India in 1964...</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/Lal-Bahadur-Shastri.jpg" class="card-image-freedomfighter" />
+            </div>
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectionbose')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">SUBHASH CHANDRA BOSE</h2>
+                    <p class="card-container-para-txt-freedomfighter">Famous with the title Netaji, Subhas Chandra Bose was born in 1897 in Orissa. The Jallianwala bagh Massacre potentially shook him and made him return to India from England in 1921. He joined Indian National Congress and was a part of Civil Disobedience Movement. Since he wasn’t content with Non-Violence method of freedom as promoted by Gandhi Ji, he went to Germany for help and eventually formed Indian National Army (INA) and Azad Hind Government...</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/Subhas_Chandra_Bose_NRB-225x300.jpg" class="card-image-freedomfighter" />
+            </div>
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectionlakshmibai')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">RANI LAKSHMI BAI </h2>
+                    <p class="card-container-para-txt-freedomfighter">Rani Lakhsmi Bai, the Queen of Jhansi, was born in 1828. She was a key member of India’s fierce uprising of independence in 1857. Despite being a woman, she embodied bravery and fearless attitude, inspiring thousands of women to participate the freedom battle. She bravely defended her palaceof Jhansi in 1858 when it was to be invaded by British force led by Sir Hugh Rose...</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/Rani-Laxmi-Bai3-208x300.jpg" class="card-image-freedomfighter" />
+            </div>
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectionbhagatsingh')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">BHAGAT SINGH </h2>
+                    <p class="card-container-para-txt-freedomfighter">Bhagat Singh was quite a famous revolutionary and also controversial Freedom Fighters of India as he became proud martyr for his country. He was born to a Sikh family of freedom fighters in 1907 in Punjab. He was therefore a born patriot and joined non-Cooperation movement in 1921. He formed the “Naujawan Bharat Sabha”, to instill patriotism in youth of Punjab. Chauri-Chaura Massacre changed him and made him extreme in his fight for freedom.</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/Bhagat_Singh_1929-234x300.jpg" class="card-image-freedomfighter" />
+            </div>
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectionchandrasekharazad')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">CHANDRA SEKHAR AZAD </h2>
+                    <p class="card-container-para-txt-freedomfighter">Chandra Shekhar Azad was born in 1906 and was a close associate of Bhagat Singh in the struggle for freedom. He was also a part of Hindustan Republican Association and the most fearless and challenging freedom fighter against British rulers. During a skirmish with British soldiers, after killing many enemies he shot himself with his Colt pistol. He swore he would never be captured alive by those Britishers...</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src="https://www.edsys.in/wp-content/uploads/017009b4d1bd980889c7fd2f5e5534bd.jpg " class="card-image-freedomfighter" />
+            </div>
+            <div class="card-container-freedomfighter d-flex flex-row justify-content-end" onclick="display('sectiontilak')">
+                <div>
+                    <h2 class="card-container-mainheading-freedomfighter">BAL GANGADHAR TILAK </h2>
+                    <p class="card-container-para-txt-freedomfighter">Bal GangadharTilak was born in 1856 and was a remarkable freedom fighters of India. In a raging protest against British, he created burning flame across the nation with the slogan – “Swaraj is my birthright”. He was more popular as one of the triumvirate: Lal, Bal and Pal. To defy English rulers, Tilakbuilt schools and published rebellious newspapers. Since people loved and respected him as one of the greatest leaders, he was called Lokmanya Tilak...</p>
+                    <p class="card-container-mainheading-freedomfighter">FOR VIDEO CLICK ON THE TOP OF THE CARD</p>
+                </div>
+                <img src=" https://www.edsys.in/wp-content/uploads/bal-gangadhar-tilak-1050x1553-203x300.jpg" class="card-image-freedomfighter" />
+            </div>
+
+            <button class="btn btn-success" onclick="display('sectionprojectshomepage')">Back</button>
+
+        </div>
+
+
+    </div>
+
+    <div id="sectionsardarvallabaipatel">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XfJ7ia3SNNI?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+    <div id="sectionjawaharlalnehru">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l8QbjYobwfA?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+    <div id="sectiongandhi">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J3aJgtzvsuA?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+
+
+
+    <div id="sectionshastri">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tGhRkRlPu2A?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+    <div id="sectionbose">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/r445jRGoDss?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+    <div id="sectionlakshmibai">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/D-xds_O-dos?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+    <div id="sectionbhagatsingh">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uGuYoI6-I8E?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+    <div id="sectionchandrasekharazad">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/olq0YuNt5GQ?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+    <div id="sectiontilak">
+
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i8mhe1GekWY?rel=0" allowfullscreen></iframe>
+        </div>
+        <button class="btn btn-success" onclick="display('sectionfreedomfighters-home')">Back</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
