@@ -4,7 +4,7 @@ function validateForm(){
     var age = document.getElementById("age").value;
     var address = document.getElementById("address").value;
     var email = document.getElementById("email").value;
-
+//Anil
     if(name == ""){
         alert("Name is Required");
         return false;
