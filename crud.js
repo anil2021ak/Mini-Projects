@@ -30,7 +30,6 @@ function validateForm(){
         alert("Invalid Email Address");
         return false;
     }
-
     return true;
 }
 
